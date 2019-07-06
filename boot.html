@@ -1,0 +1,146 @@
+<html lang="en">
+<head>
+ <title>Bootstrap Form</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>function sucess() { alert("Sucessfully submitted"); } </script>
+</head>
+<body>
+<div class="container">
+ <form class="well  form-horizontal" action=" " method="post" id="contact_form">
+<fieldset>
+<legend><center><h1><b>Queries</b></h1></center></legend>
+
+<div class="form-group">
+<label class="col-lg-4   control-label">Name</label>
+<div class="col-lg-4  inputGroupContainer">
+<div class="input-group">
+    <span  class="input-group-addon"><i  class="glyphicon glyphicon-user"></i></span>
+<input  name="First_name"  placeholder="First name" class="form-control" type="text" required></input>
+</div>
+</div>
+</div>
+
+<!--
+<div class="form-group">
+<label class="col-lg-4  control-label"><b>Last Name</b></label>
+<div class="col-lg-4 inputGroupContainer">
+<div class="input-group">
+<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+<input  name="Last_name"  placeholder="Last name" class="form-control" type="text" required></input>
+</div>
+</div>
+</div>
+
+<div class="form-group">
+<label class="col-lg-4 control-label"><b>Department/Office</b></label>
+<div class="col-lg-4 selectContainer">
+<div class="input-group">
+<span class="input-group-addon"><i  class="glyphicon glyphicon-list"></i></span>
+<select name="Department" class="form-control selectpicker">
+<option value="">Select Your Department/Office</option>
+<option>Department of Engineering</option>
+<option>Department of Agriculture</option>
+<option>Accounting Office</option>
+<option>Tresurer's Office</option>
+<option>MPDC</option>
+<option>MCTC</option>
+<option>MCR</option>
+<option>Mayor's Office</option>
+<option>Tourism Office</option>
+<option value="">Occupation</option>
+<option>Student</option>
+<option></option>
+</select>
+</div>
+</div>
+</div>-->
+
+<div class="form-group">
+<label class="col-lg-4  control-label"><b>User Name</b></label>
+<div class="col-lg-4 inputGroupContainer">
+<div class="input-group">
+<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+<input  name="User_name"  placeholder="User name" class="form-control" type="text" required></input>
+</div>
+</div>
+</div>
+
+<!--
+<div class="form-group">
+<label class="col-lg-4  control-label"><b>User's password</b></label>
+<div class="col-lg-4 inputGroupContainer">
+<div class="input-group">
+<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+<input  name="User_password"  placeholder="User's password" class="form-control" type="password" required></input>
+</div>
+</div>
+</div>
+
+
+<div class="form-group">
+<label class="col-lg-4  control-label"><b>Confirm password</b></label>
+<div class="col-lg-4 inputGroupContainer">
+<div class="input-group">
+<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+<input  name="Confirm_password"  placeholder="Confirm password" class="form-control" type="password" required></input>
+</div>
+</div>
+</div>-->
+
+<div class="form-group">
+<label class="col-lg-4  control-label"><b>E-mail</b></label>
+<div class="col-lg-4 inputGroupContainer">
+<div class="input-group">
+<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+<input  name="email"  placeholder="Email Address" class="form-control"  type="text" required></input>
+</div>
+</div>
+</div>
+
+<div class="form-group">
+<label class="col-lg-4  control-label"><b>Contact Number</b></label>
+<div class="col-lg-4 inputGroupContainer">
+<div class="input-group">
+<span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+<input  name="Contact_number"  placeholder="(324)" class="form-control"  type="text" required></input>
+</div>
+</div>
+</div>
+
+
+<div class="form-group">
+<label class="col-lg-4  control-label"><b>Questions</b></label>
+<div class="col-lg-4 inputGroupContainer">
+<div class="input-group">
+<span class="input-group-addon"><i class="glyphicon glyphicon-edit"></i></span>
+<input  name="query" class="form-control"  type="textarea" height="500" width="100" required></input>
+</div>
+</div>
+</div>
+
+<!--
+<div class="alert alert-success" role="alert" id="success_message">Success<i class="glyphicon glyphicon-thumbs-up"></i>
+Success!.</div>-->
+
+
+
+<div class="form-group">
+<label class="col-lg-4 control-label"></label>
+<div class="col-ld-8"><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<center><button type="submit" class="btn btn-warning" onclick="sucess()">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSUBMIT
+<span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button></center>
+</div>
+</div>
+
+
+</fieldset>
+</form>
+</div>
+
+
+
+</html>
